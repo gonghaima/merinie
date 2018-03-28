@@ -73,7 +73,6 @@ class Header extends Component {
 
 
 function mapStateToProps(state) {
-    debugger;
     return {
         rdStore: state.stuff
     };

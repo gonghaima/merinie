@@ -29,93 +29,7 @@
     <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" rel="stylesheet">
     <link href="css/compiled.min.css" rel="stylesheet">
-    <style rel="stylesheet">
-        /* TEMPLATE STYLES */
-
-        /* Necessary for full page carousel*/
-
-        html,
-        body,
-        .view {
-            height: 100%;
-        }
-
-        /* Navigation*/
-
-        .navbar {
-            background-color: transparent;
-        }
-
-        .scrolling-navbar {
-            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-            transition: background .5s ease-in-out, padding .5s ease-in-out;
-        }
-
-        .top-nav-collapse {
-            background-color: #1C2331;
-        }
-
-        footer.page-footer {
-            background-color: #1C2331;
-            margin-top: 0;
-        }
-
-        @media only screen and (max-width: 767px) {
-            .navbar {
-                background-color: #1C2331;
-            }
-            .display-3 {
-                font-size: 2rem;
-                margin-top: 6rem;
-            }
-            h3 {
-                font-size: 1rem;
-            }
-        }
-
-        @media only screen and (max-width: 667px) {
-            .display-3 {
-                font-size: 3rem;
-            }
-        }
-
-        /* Carousel*/
-
-        .carousel,
-        .carousel-item,
-        .active {
-            height: 100%;
-        }
-
-        .carousel-inner {
-            height: 100%;
-        }
-
-        /*Caption*/
-
-        .flex-center {
-            color: #fff;
-        }
-
-        @media (min-width: 776px) {
-            .carousel .view ul li {
-                display: inline;
-            }
-            .carousel .view .full-bg-img ul li .flex-item {
-                margin-bottom: 1.5rem;
-            }
-        }
-
-        .navbar .btn-group .dropdown-menu a:hover {
-            color: #000 !important;
-        }
-
-        .navbar .btn-group .dropdown-menu a:active {
-            color: #fff !important;
-        }
-    </style>
-
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -233,11 +147,104 @@
             <!--Section heading-->
             <h1 class="section-heading h1 dark-grey-text text-center mt-5 pt-lg-3">New Products</h1>
             <hr>
-                <div class="row">
-    
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4">
-    
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4">
+
+                    <!--Collection card-->
+                    <div class="card collection-card z-depth-1-half">
+                        <!--Card image-->
+                        <div class="view zoom">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/5.jpg" class="img-fluid" alt="">
+                            <div class="stripe dark">
+                                <a>
+                                    <p>Merinie
+                                        <i class="fa fa-angle-right"></i>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <!--Card image-->
+                    </div>
+                    <!--Collection card-->
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4">
+
+                    <!--Collection card-->
+                    <div class="card collection-card z-depth-1-half">
+                        <!--Card image-->
+                        <div class="view zoom">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/8.jpg" class="img-fluid" alt="">
+                            <div class="stripe light">
+                                <a>
+                                    <p>Chil-Eez
+                                        <i class="fa fa-angle-right"></i>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <!--Card image-->
+                    </div>
+                    <!--Collection card-->
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4">
+
+                    <!--Collection card-->
+                    <div class="card collection-card z-depth-1-half">
+                        <!--Card image-->
+                        <div class="view zoom">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/9.jpg" class="img-fluid" alt="">
+                            <div class="stripe dark">
+                                <a>
+                                    <p>Stormer
+                                        <i class="fa fa-angle-right"></i>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <!--Card image-->
+                    </div>
+                    <!--Collection card-->
+
+                </div>
+                <!--Grid column-->
+
+                <!--Fourth column-->
+                <div class="col-lg-3 col-md-6 mb-4">
+
+                    <!--Collection card-->
+                    <div class="card collection-card z-depth-1-half">
+                        <!--Card image-->
+                        <div class="view zoom">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/7.jpg" class="img-fluid" alt="">
+                            <div class="stripe light">
+                                <a>
+                                    <p>Merinie Hi-Vis
+                                        <i class="fa fa-angle-right"></i>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <!--Card image-->
+                    </div>
+                    <!--Collection card-->
+
+                </div>
+                <!--Fourth column-->
+            </div>
+
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-6 mb-4 d-flex justify-content-center">
+                    <div class="col-lg-6 col-md-6 mb-4">
                         <!--Collection card-->
                         <div class="card collection-card z-depth-1-half">
                             <!--Card image-->
@@ -245,7 +252,7 @@
                                 <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/5.jpg" class="img-fluid" alt="">
                                 <div class="stripe dark">
                                     <a>
-                                        <p>Red trousers
+                                        <p>Neck Warmer
                                             <i class="fa fa-angle-right"></i>
                                         </p>
                                     </a>
@@ -254,13 +261,14 @@
                             <!--Card image-->
                         </div>
                         <!--Collection card-->
-    
+
                     </div>
-                    <!--Grid column-->
-    
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4">
-    
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-6 mb-4 d-flex justify-content-center">
+                    <div class="col-lg-6 col-md-6 mb-4">
                         <!--Collection card-->
                         <div class="card collection-card z-depth-1-half">
                             <!--Card image-->
@@ -268,7 +276,7 @@
                                 <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/8.jpg" class="img-fluid" alt="">
                                 <div class="stripe light">
                                     <a>
-                                        <p>Sweatshirt
+                                        <p>Diving Hood
                                             <i class="fa fa-angle-right"></i>
                                         </p>
                                     </a>
@@ -277,59 +285,261 @@
                             <!--Card image-->
                         </div>
                         <!--Collection card-->
-    
                     </div>
-                    <!--Grid column-->
-    
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4">
-    
-                        <!--Collection card-->
-                        <div class="card collection-card z-depth-1-half">
-                            <!--Card image-->
-                            <div class="view zoom">
-                                <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/9.jpg" class="img-fluid" alt="">
-                                <div class="stripe dark">
-                                    <a>
-                                        <p>Accessories
-                                            <i class="fa fa-angle-right"></i>
-                                        </p>
-                                    </a>
-                                </div>
-                            </div>
-                            <!--Card image-->
-                        </div>
-                        <!--Collection card-->
-    
-                    </div>
-                    <!--Grid column-->
-    
-                    <!--Fourth column-->
-                    <div class="col-lg-3 col-md-6 mb-4">
-    
-                        <!--Collection card-->
-                        <div class="card collection-card z-depth-1-half">
-                            <!--Card image-->
-                            <div class="view zoom">
-                                <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/7.jpg" class="img-fluid" alt="">
-                                <div class="stripe light">
-                                    <a>
-                                        <p>Sweatshirt
-                                            <i class="fa fa-angle-right"></i>
-                                        </p>
-                                    </a>
-                                </div>
-                            </div>
-                            <!--Card image-->
-                        </div>
-                        <!--Collection card-->
-    
-                    </div>
-                    <!--Fourth column-->
-    
                 </div>
-            </section>
-            <!--Section: categories landscape -->
+                <!--Grid column-->
+
+
+            </div>
+
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4">
+
+                    <!--Collection card-->
+                    <div class="card collection-card z-depth-1-half">
+                        <!--Card image-->
+                        <div class="view zoom">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/5.jpg" class="img-fluid" alt="">
+                            <div class="stripe dark">
+                                <a>
+                                    <p>Balalava's
+                                        <i class="fa fa-angle-right"></i>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <!--Card image-->
+                    </div>
+                    <!--Collection card-->
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4">
+
+                    <!--Collection card-->
+                    <div class="card collection-card z-depth-1-half">
+                        <!--Card image-->
+                        <div class="view zoom">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/8.jpg" class="img-fluid" alt="">
+                            <div class="stripe light">
+                                <a>
+                                    <p>Colour Options
+                                        <i class="fa fa-angle-right"></i>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <!--Card image-->
+                    </div>
+                    <!--Collection card-->
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4">
+
+                    <!--Collection card-->
+                    <div class="card collection-card z-depth-1-half">
+                        <!--Card image-->
+                        <div class="view zoom">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/9.jpg" class="img-fluid" alt="">
+                            <div class="stripe dark">
+                                <a>
+                                    <p>Blank
+                                        <i class="fa fa-angle-right"></i>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <!--Card image-->
+                    </div>
+                    <!--Collection card-->
+
+                </div>
+                <!--Grid column-->
+
+                <!--Fourth column-->
+                <div class="col-lg-3 col-md-6 mb-4">
+
+                    <!--Collection card-->
+                    <div class="card collection-card z-depth-1-half">
+                        <!--Card image-->
+                        <div class="view zoom">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/7.jpg" class="img-fluid" alt="">
+                            <div class="stripe light">
+                                <a>
+                                    <p>Blank
+                                        <i class="fa fa-angle-right"></i>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <!--Card image-->
+                    </div>
+                    <!--Collection card-->
+
+                </div>
+                <!--Fourth column-->
+            </div>
+
+        </section>
+        <!--Section: categories landscape -->
+
+
+        <!--Section: Products v.2-->
+        <section class="text-center pb-3 my-5">
+            <!--Section heading-->
+            <h1 class="font-weight-bold text-center h1 py-5">Our bestsellers</h1>
+            <!--Section description-->
+            <p class="grey-text pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate
+                esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-12 mb-3">
+                    <!--Card-->
+                    <div class="card card-cascade wider card-ecommerce">
+                        <!--Card image-->
+                        <div class="view overlay">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img (55).jpg" class="img-fluid" alt="sample photo">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Card image-->
+                        <!--Card content-->
+                        <div class="card-body text-center no-padding">
+                            <!--Category & Title-->
+                            <a href="" class="text-muted">
+                                <h5>Camera</h5>
+                            </a>
+                            <h4 class="card-title">
+                                <strong>
+                                    <a href="">GoPro</a>
+                                </strong>
+                            </h4>
+                            <!--Description-->
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
+                            <!--Card footer-->
+                            <div class="card-footer">
+                                <span class="float-left font-weight-bold">
+                                    <strong>1439$</strong>
+                                </span>
+                                <span class="float-right">
+                                    <a class="" data-toggle="tooltip" data-placement="top" title="Quick Look">
+                                        <i class="fa fa-eye grey-text ml-3"></i>
+                                    </a>
+                                    <a class="" data-toggle="tooltip" data-placement="top" title="Add to Wishlist">
+                                        <i class="fa fa-heart grey-text ml-3"></i>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                        <!--Card content-->
+                    </div>
+                    <!--Card-->
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <!--Card-->
+                    <div class="card card-cascade wider card-ecommerce">
+                        <!--Card image-->
+                        <div class="view overlay">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(49).jpg" class="img-fluid" alt="sample photo">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Card image-->
+                        <!--Card content-->
+                        <div class="card-body text-center no-padding">
+                            <!--Category & Title-->
+                            <a href="" class="text-muted">
+                                <h5>Photography</h5>
+                            </a>
+                            <h4 class="card-title">
+                                <strong>
+                                    <a href="">Camera</a>
+                                </strong>
+                            </h4>
+                            <!--Description-->
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
+                            <!--Card footer-->
+                            <div class="card-footer">
+                                <span class="float-left font-weight-bold">
+                                    <strong>1160$</strong>
+                                </span>
+                                <span class="float-right">
+                                    <a class="" data-toggle="tooltip" data-placement="top" title="Quick Look">
+                                        <i class="fa fa-eye grey-text ml-3"></i>
+                                    </a>
+                                    <a class="" data-toggle="tooltip" data-placement="top" title="Add to Wishlist">
+                                        <i class="fa fa-heart grey-text ml-3"></i>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                        <!--Card content-->
+                    </div>
+                    <!--Card-->
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <!--Card-->
+                    <div class="card card-cascade wider card-ecommerce">
+                        <!--Card image-->
+                        <div class="view overlay">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img (56).jpg" class="img-fluid" alt="sample photo">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Card image-->
+                        <!--Card content-->
+                        <div class="card-body text-center no-padding">
+                            <!--Category & Title-->
+                            <a href="" class="text-muted">
+                                <h5>Smartphone</h5>
+                            </a>
+                            <h4 class="card-title">
+                                <strong>
+                                    <a href="">iPhone 6S</a>
+                                </strong>
+                            </h4>
+                            <!--Description-->
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
+                            <!--Card footer-->
+                            <div class="card-footer">
+                                <span class="float-left font-weight-bold">
+                                    <strong>2160$</strong>
+                                </span>
+                                <span class="float-right">
+                                    <a class="" data-toggle="tooltip" data-placement="top" title="Quick Look">
+                                        <i class="fa fa-eye grey-text ml-3"></i>
+                                    </a>
+                                    <a class="" data-toggle="tooltip" data-placement="top" title="Add to Wishlist">
+                                        <i class="fa fa-heart grey-text ml-3"></i>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                        <!--Card content-->
+                    </div>
+                    <!--Card-->
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </section>
+        <!--Section: Products v.2-->
+
+
 
         <!--Section: Blog v.1-->
         <section class="section pb-3 text-center text-lg-left">
@@ -507,6 +717,8 @@
 
         </section>
         <!--Section: Blog v.1-->
+
+
     </div>
 
     <!--/.Main layout-->

@@ -18,7 +18,6 @@ export default function stuff(state = initialState, action) {
         case UPDATE_STUFF:
             newState = Object.assign({},state);
             newState.stuff=action.stuff;
-            debugger;
             return newState;
         default:
             return state;
